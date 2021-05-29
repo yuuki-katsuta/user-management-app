@@ -1,7 +1,7 @@
 import { Center, Wrap, WrapItem } from '@chakra-ui/layout';
 import { useDisclosure } from '@chakra-ui/react';
 import { Spinner } from '@chakra-ui/spinner';
-import React, { memo, useCallback, useEffect, VFC } from 'react';
+import { memo, useCallback, useEffect, VFC } from 'react';
 import { useAllUsers } from '../../hooks/useAllUsers';
 import { useSelectUser } from '../../hooks/useSelectUser';
 import { UserCard } from '../organisms/user/UserCard';
